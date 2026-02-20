@@ -14,7 +14,7 @@ resource "aws_instance" "terraform-instance-1" {
   availability_zone = "ap-south-1a"
 }
 
-/*resource "aws_instance" "terraform-instance-2" {
+resource "aws_instance" "terraform-instance-2" {
   ami           = "ami-0317b0f0a0144b137"
   instance_type = "t2.micro"
   key_name      = "jenkins"
@@ -23,4 +23,4 @@ resource "aws_instance" "terraform-instance-1" {
 
   }
   availability_zone = "ap-south-1a"
-}*/
+}
